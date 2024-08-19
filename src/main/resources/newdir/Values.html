@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Characters Example</title>
+</head>
+<body>
+    <h1>Special Characters in Values</h1>
+    <ul th:each="product : ${Product}">
+        <li th:text="${product.name}">Product Name</li>
+        <li th:text="${product.price}">Product Price</li>
+        <li th:text="${product.inStock}">Product In Stock</li>
+    </ul>
+</body>
+</html>
