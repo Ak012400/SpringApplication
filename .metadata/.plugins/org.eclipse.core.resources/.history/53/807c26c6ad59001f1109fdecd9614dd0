@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Characters Example</title>
+</head>
+<body>
+    <h1>Special Characters in Values</h1>
+    <ul>
+        <li>@{example}</li>
+        <li>#{hashtag}</li>
+        <li>${dollar}</li>
+        <li>*{Important}</li>
+    </ul>
+
+    <p>Form Input Example:</p>
+    <form>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="user@example.com@">
+        <br><br>
+
+        <label for="hashtag">Hashtag:</label>
+        <input type="text" id="hashtag" name="hashtag" value="#Awesome">
+        <br><br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" value="$99.99">
+        <br><br>
+
+        <label for="priority">Priority:</label>
+        <input type="text" id="priority" name="priority" value="*High">
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

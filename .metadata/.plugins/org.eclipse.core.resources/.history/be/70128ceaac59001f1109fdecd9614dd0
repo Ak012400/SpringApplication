@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import java.util.List;
+import java.util.Arrays;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ProductCotroller {
+	List<Product> l1;
+	
+	 ProductCotroller(){
+		Product p1=new Product("Sweet home",45.20,true);
+		Product p2=new Product("sweet chiki masala",87.32,true);
+		Product p3=new Product("Sweet jalebi",444.20,true);
+		Product p4=new Product("sweet dhosa masala",37.32,false);
+		Product p5=new Product("Sweet angur",48.20,true);
+		Product p6=new Product("sweet chat masala",88.32,false);
+		l1= Arrays.asList(p1,p2,p3,p4,p5,p6);
+	}
+
+}
